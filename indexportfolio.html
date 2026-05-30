@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio Website HTML & CSS Only</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styleportfolio.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+       <header class="header">
+            <a href="#home" class="logo">Graham</a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+              <div class="toggle-btn">
+                    <i class='bx bx-moon'></i>
+                </div>
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+       </header>
+
+       <!-- HOME SECTION -->
+       <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, I'm Graham Malembeka</h1>
+                <h3>I'm a <span id="typing"></span></h3>
+                <p>Hello! I'm a Computer Science student and an aspiring Frontend Developer. I enjoy building responsive websites and learning modern web technologies such as HTML, CSS, JavaScript, and soon React and Python.</p>
+                <div class="btn-box">
+                    <a href="#contact">Hire Me</a>
+                    <a href="#contact">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <span class="home-imgHover"></span>
+       </section>
+
+       <!-- ABOUT SECTION -->
+       <section class="about reveal" id="about">
+            <div class="about-img">
+                <img src="darkblue.jpeg" alt="Graham Malembeka">
+            </div>
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>I am a Computer Science student at the University of Zambia (UNZA), 
+                passionate about building clean and functional web experiences. 
+                I enjoy turning ideas into reality through code and I am always 
+                looking to grow my skills in web development.</p>
+                <div class="btn-box">
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+       </section>
+
+
+       <!--skills-->
+       <section class="skills" id="skills">
+        <h2>My <span>Skills</span></h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class = "progress">
+                <span style="width: 90%;"></span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress">
+                <span style="width: 80%;"></span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress">
+                <span style="width: 65%;">
+
+                </span>
+            </div>
+        </div>
+</section>
+       
+
+
+<!-- SERVICES SECTION -->
+       <section class="services reveal" id="services">
+            <h2>My <span>Services</span></h2>
+            <div class="services-container">
+
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and functional websites using HTML, CSS, and JavaScript.</p>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bx-palette'></i>
+                    <h3>UI Design</h3>
+                    <p>Designing clean and attractive user interfaces with a focus on user experience.</p>
+                </div>
+
+                <div class="service-box">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Responsive Design</h3>
+                    <p>Making websites look great on all screen sizes, from mobile to desktop.</p>
+                </div>
+
+            </div>
+       </section>
+
+       <!-- PORTFOLIO SECTION -->
+       <section class="portfolio reveal" id="portfolio">
+            <h2>My <span>Portfolio</span></h2>
+            <div class="portfolio-container">
+
+                <div class="portfolio-box">
+                    <img src="darkblue.jpeg" alt="Project 1">
+                    <div class="portfolio-info">
+                        <h3>Portfolio Website</h3>
+                        <p>HTML & CSS</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="darkblue.jpeg" alt="Project 2">
+                    <div class="portfolio-info">
+                        <h3>Project Two</h3>
+                        <p>HTML & CSS</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="darkblue.jpeg" alt="Project 3">
+                    <div class="portfolio-info">
+                        <h3>Project Three</h3>
+                        <p>HTML & CSS</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+       </section>
+
+       <!-- CONTACT SECTION -->
+       <section class="contact reveal" id="contact">
+            <h2>Contact <span>Me</span></h2>
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class='bx bx-envelope'></i>
+                        <p>graham.malembeka@cs.unza.zm</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone'></i>
+                        <p>+260 772689431</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-map'></i>
+                        <p>Lusaka, Zambia</p>
+                    </div>
+                    <div class="home-sci">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+
+                         <input type="text" placeholder="Full Name" id="name">
+                    <input type="email" placeholder="Email Address" id="email">
+                    <input type="text" id="subject" placeholder="Email Subject">
+                    <textarea rows="10" cols="30" id="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="button">
+                    <p id="form-message"></p>
+                    </form>
+                   
+
+            </div>
+       </section>
+   <script src="portfolio.js"></script>
+    </body>
+</html>
